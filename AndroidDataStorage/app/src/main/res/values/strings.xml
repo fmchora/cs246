@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidDataStorage</string>
+    <string name="advance">Advance</string>
+    <string name="save">Save</string>
+</resources>
