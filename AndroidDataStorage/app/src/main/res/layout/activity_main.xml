@@ -14,16 +14,19 @@
         android:layout_height="wrap_content"
         android:text="@string/save"
         android:id="@+id/save"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="165dp" />
+        android:layout_alignTop="@+id/advance"
+        android:layout_toEndOf="@+id/counter"
+        android:layout_marginStart="33dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/advance"
         android:id="@+id/advance"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/counter"
+        android:layout_toStartOf="@+id/counter"
+        android:layout_marginEnd="43dp"
+        android:layout_marginTop="78dp" />
 
     <TextView
         android:layout_width="wrap_content"
